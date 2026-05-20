@@ -35,13 +35,15 @@ const About = () => {
             </div>
 
             <div style={{ display: 'flex', gap: '14px', flexWrap: 'wrap' }}>
-              <a
-                href="/resume.pdf"
-                download
-                className="btn btn-primary"
-              >
-                Download CV ↓
-              </a>
+           <a
+              href="/Aditya_Resume.pdf" 
+              download="Aditya_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-primary"
+            >
+           Download CV ↓
+          </a>
               <button
                 className="btn btn-outline"
                 onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
